@@ -1,0 +1,86 @@
+{
+  "schema_version": 1,
+  "benchmark_manifest_sha256": "f3cbbebb1dac51e2b2fb91f4fa786dee8c0f5b1c7045b13d12fb207673d019f9",
+  "comparison_script_sha256": "2861ce46a3508bc02149a85b93b4d25ad11d3ea254ecbe278a93f27be86acd20",
+  "numpy_version": "2.5.3",
+  "frozen_cluster_record_sha256": "7c2a6012e5ad030817752c90c6b2ce45a13a1f190159b292461f955281abe1e3",
+  "candidate_contract_sha256": "2b85804df861fad25a2653152a196a0e32d80087cad1fa483176d15bc376eda0",
+  "baseline_contract_sha256": "beb1a1f4503d309af4890c508f3eb3a88461a719509967b57342d6d9c9d01337",
+  "cluster_map_sha256": "12fa6773524ef5d7c5bd5c64ce8131e42d1d8aa4a843941a9319bcf82d6dd838",
+  "statistics": {
+    "replicates": 10000,
+    "seed": 20260922,
+    "method": "paired source-cluster bootstrap within each task; unweighted task macro",
+    "macro_difference_percentage_points": -5.360000000000001,
+    "macro_ci95_percentage_points": [
+      -7.188839689424712,
+      -3.547826879826993
+    ],
+    "tasks": {
+      "arc_challenge": {
+        "items": 500,
+        "source_clusters": 500,
+        "difference_percentage_points": -3.5999999999999996,
+        "ci95_percentage_points": [
+          -7.199999999999999,
+          0.0
+        ],
+        "individual_task_inference": "exploratory; no multiplicity correction"
+      },
+      "hellaswag": {
+        "items": 500,
+        "source_clusters": 490,
+        "difference_percentage_points": -10.0,
+        "ci95_percentage_points": [
+          -13.883299798792756,
+          -6.212424849699398
+        ],
+        "individual_task_inference": "exploratory; no multiplicity correction"
+      },
+      "piqa": {
+        "items": 500,
+        "source_clusters": 500,
+        "difference_percentage_points": -11.200000000000001,
+        "ci95_percentage_points": [
+          -15.0,
+          -7.3999999999999995
+        ],
+        "individual_task_inference": "exploratory; no multiplicity correction"
+      },
+      "boolq": {
+        "items": 500,
+        "source_clusters": 489,
+        "difference_percentage_points": 1.4000000000000001,
+        "ci95_percentage_points": [
+          -1.4056224899598393,
+          4.3478260869565215
+        ],
+        "individual_task_inference": "exploratory; no multiplicity correction"
+      },
+      "winogrande": {
+        "items": 500,
+        "source_clusters": 500,
+        "difference_percentage_points": -3.4000000000000004,
+        "ci95_percentage_points": [
+          -9.0,
+          2.4
+        ],
+        "individual_task_inference": "exploratory; no multiplicity correction"
+      }
+    }
+  },
+  "gates": {
+    "quality_floors_pass": false,
+    "no_task_regression_over_five_points": false,
+    "better_on_this_2500_item_suite": false,
+    "noninferior_quality_gate_for_smaller_tradeoff": false,
+    "useful_smaller_tradeoff_established": false,
+    "resource_gate_status": "Requires separately matched artifact-size and peak-memory evidence plus latency/cost reporting",
+    "pareto_frontier_established": false
+  },
+  "limitations": [
+    "Conditional on this fixed checkpoint and suite; no training-seed variability measured",
+    "Known HellaSwag source IDs and repeated BoolQ passages are clustered; unprovided upstream links cannot be recovered",
+    "No claim about all real-world tasks, all Sarvam models, or a global Pareto frontier"
+  ]
+}

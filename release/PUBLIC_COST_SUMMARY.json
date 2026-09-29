@@ -1,0 +1,237 @@
+{
+  "all_compute_stopped_at_observation": true,
+  "cleanup_status_note": "All compute is stopped. Resource deletion and temporary training-access revocation await direct user authorization. Verified local backups and release provenance are complete. Storage and billing settlement remain pending.",
+  "derived_from_sha256": "0a51ab17a23e2029599b28efcf3bc25a80e03c910687bd4ed1b323f2331dcff2",
+  "excluded_from_actual_spend": {
+    "legacy_runpod_pending_allocation_reservation_usd": 7,
+    "legacy_runpod_unsettled_hold_usd": 0.25,
+    "unallocated_conservative_allowance_usd": 0.68
+  },
+  "final_settlement_pending": true,
+  "format": "udgam-public-cost-summary-v1",
+  "latest_observation_note": "The refreshed account observation shows no cost change and no active experiment compute or containers. All itemized run charges, including both backup compression attempts and failed setup work, are unchanged. The summary/resource-report difference remains unallocated; storage and transfer settlement remain pending.",
+  "limitations": [
+    "A dated sanitized public summary, not raw account statements or a settled final invoice.",
+    "The workspace-summary/resource-report difference is retained without invented per-run allocation.",
+    "Failed setup and preparation attempts remain attributable.",
+    "Credits offset cash charges; they do not make gross consumed compute free.",
+    "Actual reproduction cost depends on hardware prices, setup, throughput and any new data/preparation work."
+  ],
+  "modal_credits_applied_usd": 15.14,
+  "modal_free_storage_adjustment_usd": 0.56605529,
+  "modal_gross_workspace_usd": 15.70605529,
+  "modal_operating_ceiling_usd": 25,
+  "modal_paid_ceiling_usd": 0,
+  "modal_paid_usd": 0.0,
+  "modal_per_run_resources": [
+    {
+      "resource_usd": 0.01022273,
+      "run": "udgam-english-final-baselines-001",
+      "stage": "evaluation_baseline_preparation"
+    },
+    {
+      "resource_usd": 1.09585349,
+      "run": "udgam-english-final-evaluation-001",
+      "stage": "final_evaluation"
+    },
+    {
+      "resource_usd": 0.00013214,
+      "run": "udgam-english-final-io-profile-016",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.01351714,
+      "run": "udgam-english-final-materialization-profile-017",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.07025693,
+      "run": "udgam-english-final-seal-002",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.74201848,
+      "run": "udgam-english-final-sft-001",
+      "stage": "failed_sft_setup"
+    },
+    {
+      "resource_usd": 0.49546921,
+      "run": "udgam-english-final-sft-002",
+      "stage": "completed_sft"
+    },
+    {
+      "resource_usd": 5.25668186,
+      "run": "udgam-english-main-resume-002-20260922",
+      "stage": "main_training"
+    },
+    {
+      "resource_usd": 0.65289962,
+      "run": "udgam-english-modal-001-20260922",
+      "stage": "pilot_and_early_main"
+    },
+    {
+      "resource_usd": 0.00561484,
+      "run": "udgam-english-modal-001-20260922-image",
+      "stage": "pilot_and_early_main"
+    },
+    {
+      "resource_usd": 0.00826836,
+      "run": "udgam-english-modal-001-20260922-preflight",
+      "stage": "pilot_and_early_main"
+    },
+    {
+      "resource_usd": 0.01607876,
+      "run": "udgam-english-packing-profile-013",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.11754022,
+      "run": "udgam-english-prepare-benchmark-001",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.77113614,
+      "run": "udgam-english-prepare-counted-014",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.17320854,
+      "run": "udgam-english-prepare-forensic-008",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.16803677,
+      "run": "udgam-english-prepare-forensic-009",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.37149545,
+      "run": "udgam-english-prepare-full-002",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.20098162,
+      "run": "udgam-english-prepare-full-003",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.10969425,
+      "run": "udgam-english-prepare-full-004",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.1277467,
+      "run": "udgam-english-prepare-full-005",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.45750384,
+      "run": "udgam-english-prepare-full-006",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.41028279,
+      "run": "udgam-english-prepare-full-007",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 1.32293004,
+      "run": "udgam-english-prepare-isolated-012",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.40968507,
+      "run": "udgam-english-prepare-repair-010",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.84780137,
+      "run": "udgam-english-prepare-repair-resume-011",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.0032601,
+      "run": "udgam-english-recovery-archive-003-001",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "resource_usd": 0.05128072,
+      "run": "udgam-english-recovery-archive-003-002",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "outcome": "failed_publication_preserved",
+      "resource_usd": 0.000793,
+      "run": "udgam-english-sqlite-compression-018",
+      "stage": "data_preparation_diagnostics_and_backup"
+    },
+    {
+      "outcome": "verified_backup_transport",
+      "resource_usd": 0.01864245,
+      "run": "udgam-english-sqlite-compression-019",
+      "stage": "data_preparation_diagnostics_and_backup"
+    }
+  ],
+  "modal_resource_cost_by_stage": {
+    "completed_sft": 0.49546921,
+    "data_preparation_diagnostics_and_backup": 5.66200404,
+    "evaluation_baseline_preparation": 0.01022273,
+    "failed_sft_setup": 0.74201848,
+    "final_evaluation": 1.09585349,
+    "main_training": 5.25668186,
+    "pilot_and_early_main": 0.66678282
+  },
+  "modal_resource_reports_total_usd": 13.92903263,
+  "modal_storage_summary_usd": 0.56605529,
+  "modal_summary_minus_resource_reports_usd": 1.77702266,
+  "observation_utc": "2026-09-24T17:18:51.238216+00:00",
+  "observed_at": 1790270331.238216,
+  "observed_modal_gross_plus_runpod_actual_usd": 16.57605529,
+  "previous_compute_close_observation": {
+    "derived_from_sha256": "a3cec8595c7feee45b0605f1e9f9df79c6fa0e18314a5aef52029ab800f45276",
+    "modal_credits_applied_usd": 15.01,
+    "modal_gross_workspace_usd": 15.57605529,
+    "modal_paid_usd": 0.0,
+    "modal_resource_reports_total_usd": 13.90959718,
+    "modal_summary_minus_resource_reports_usd": 1.66645811,
+    "observed_at": 1790253792.702284,
+    "observed_modal_gross_plus_runpod_actual_usd": 16.44605529
+  },
+  "previous_observation": {
+    "derived_from_sha256": "afdf5aec3d08e860629414d3bb256407ea1e750ad7c6fbf38c173402870c1239",
+    "modal_credits_applied_usd": 15.12,
+    "modal_gross_workspace_usd": 15.68605529,
+    "modal_paid_usd": 0.0,
+    "modal_resource_reports_total_usd": 13.90959718,
+    "modal_summary_minus_resource_reports_usd": 1.77645811,
+    "observation_utc": "2026-09-24T13:54:11Z",
+    "observed_at": 1790258431.990705,
+    "observed_modal_gross_plus_runpod_actual_usd": 16.55605529,
+    "public_summary_sha256": "bc03aa6e57b417e093330e1dd6ae59365febcf1186efcbfb3fd7574ad0cf9fe8"
+  },
+  "previous_pre_cleanup_observation": {
+    "derived_from_sha256": "b3a231a73c7331f2ebc9395b5a42b4a5ce6ba483c101fe2018569e9869db6929",
+    "modal_gross_workspace_usd": 15.70605529,
+    "modal_paid_usd": 0.0,
+    "modal_resource_reports_total_usd": 13.92903263,
+    "modal_summary_minus_resource_reports_usd": 1.77702266,
+    "observation_utc": "2026-09-24T15:14:36.400867+00:00",
+    "observed_at": 1790262876.400867,
+    "public_summary_sha256": "340b1a39dbee49b4750f99ef13d08ea519ea35b8f61693c552f51a55a92dcb39"
+  },
+  "project_ceiling_usd": 99,
+  "remaining_budget_allowances_are_not_actual_spend": true,
+  "resource_cleanup_complete": false,
+  "retained_unsettled_modal_holds_usd": {
+    "historical_extra_unallocated_gap": 1.04376887,
+    "lag_and_storage": 0.49
+  },
+  "runpod_recorded_actual_usd": 0.87,
+  "status": "compute_closed_cleanup_awaiting_user_authorization",
+  "temporary_training_access_revoked": false,
+  "unpriced_costs": [
+    "Existing Mac compute and storage",
+    "Local network and internet",
+    "Engineering and supervision time"
+  ]
+}

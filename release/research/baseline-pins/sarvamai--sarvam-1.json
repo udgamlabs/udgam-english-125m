@@ -1,0 +1,156 @@
+{
+  "_id": "6718f7bd7f45bd094a53884e",
+  "id": "sarvamai/sarvam-1",
+  "private": false,
+  "pipeline_tag": "text-generation",
+  "library_name": "transformers",
+  "tags": [
+    "transformers",
+    "safetensors",
+    "llama",
+    "text-generation",
+    "conversational",
+    "bn",
+    "en",
+    "gu",
+    "hi",
+    "kn",
+    "ml",
+    "mr",
+    "or",
+    "pa",
+    "ta",
+    "te",
+    "text-generation-inference",
+    "endpoints_compatible",
+    "deploy:azure",
+    "region:us"
+  ],
+  "downloads": 9098,
+  "likes": 150,
+  "modelId": "sarvamai/sarvam-1",
+  "author": "sarvamai",
+  "sha": "e9607337286ddf496d4a2562b194e489dcf3feea",
+  "lastModified": "2024-11-08T10:20:34.000Z",
+  "gated": false,
+  "disabled": false,
+  "model-index": null,
+  "config": {
+    "architectures": [
+      "LlamaForCausalLM"
+    ],
+    "model_type": "llama",
+    "tokenizer_config": {
+      "bos_token": "<s>",
+      "chat_template": "{% if messages[0]['role'] == 'system' %}{% set loop_messages = messages[1:] %}{% set system_message = messages[0]['content'] %}{% else %}{% set loop_messages = messages %}{% set system_message = false %}{% endif %}\n{% for message in loop_messages %}\n{% if message['role'] not in ['user', 'assistant', 'tool_calls'] %}\n{{ raise_exception('Invalid role: ' + message['role'] + '. Must be user, assistant, or tool_calls.') }}\n{% endif %}\n{% if loop.index0 == 0 and system_message != false %}\n{% set content = '<<SYS>>\n' + system_message + '\n<</SYS>>\n\n' + message['content'] %}\n{% else %}\n{% set content = message['content'] %}\n{% endif %}\n{% if message['role'] == 'user' %}\n{{ bos_token + '[INST] ' + content.strip() + ' [/INST]' }}\n{% elif message['role'] == 'assistant' %}\n{{ ' ' + content.strip() + ' ' + eos_token }}\n{% elif message['role'] == 'tool_calls' %}\n{{ ' [TOOL_CALLS] ' + content.strip() + ' [/TOOL_CALLS] ' }}\n{% endif %}\n{% endfor %}",
+      "eos_token": "</s>",
+      "pad_token": null,
+      "unk_token": "<unk>",
+      "use_default_system_prompt": false
+    }
+  },
+  "cardData": {
+    "language": [
+      "bn",
+      "en",
+      "gu",
+      "hi",
+      "kn",
+      "ml",
+      "mr",
+      "or",
+      "pa",
+      "ta",
+      "te"
+    ],
+    "library_name": "transformers"
+  },
+  "transformersInfo": {
+    "auto_model": "AutoModelForCausalLM",
+    "pipeline_tag": "text-generation",
+    "processor": "AutoTokenizer"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "LICENSE.md"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "config.json"
+    },
+    {
+      "rfilename": "generation_config.json"
+    },
+    {
+      "rfilename": "model-00001-of-00002.safetensors"
+    },
+    {
+      "rfilename": "model-00002-of-00002.safetensors"
+    },
+    {
+      "rfilename": "model.safetensors.index.json"
+    },
+    {
+      "rfilename": "special_tokens_map.json"
+    },
+    {
+      "rfilename": "tokenizer.json"
+    },
+    {
+      "rfilename": "tokenizer.model"
+    },
+    {
+      "rfilename": "tokenizer_config.json"
+    }
+  ],
+  "spaces": [
+    "K00B404/LLM_Quantization",
+    "KBaba7/Quant",
+    "FallnAI/Quantize-HF-Models",
+    "openfree/LLM_Quantization",
+    "bhaskartripathi/LLM_Quantization",
+    "eduagarcia/multilingual-tokenizer-leaderboard",
+    "ruslanmv/convert_to_gguf",
+    "seawolf2357/LLM_Quantization",
+    "totolook/Quant",
+    "swechaap/Telugu_Vocab_Evaluation",
+    "dayavilacast/multilingual-chat",
+    "rapidbuild09/aunty_chatfr",
+    "exploitz3r0bbd/Quantize-HF-Models",
+    "Xlnk/Quantize-HF-Models",
+    "Oss11/Quantize-HF-Models",
+    "skygg/LexoSynth",
+    "skygg/llama_sarvam_phi4_aiml_tortured_phrase",
+    "KGSAGAR/Hindi_Text_Normalization",
+    "Priyanka6/fine-tuning-inference",
+    "K00B404/convert_to_gguf",
+    "salmankhanpm/Telugu_Vocab_Evaluation",
+    "AnonymousAccountACL/IndicTunedLens",
+    "singarajusaiteja/corpus-collection-engine",
+    "GTOMA83/Quantize-HF-Models",
+    "MihirRajeshPanchal/IndicTunedLens",
+    "omunaman/nano-hindi-chat",
+    "vedchamp07/sanskritGPT",
+    "Guilherme34/convert_to_gguf",
+    "mos619/chatbot",
+    "nowherotime/sarvam-1-chat",
+    "AK04-IXR/fast-indic-tts",
+    "shravankotagi/SmartVest",
+    "GTO83/LLM_Quantization",
+    "Shreshthabagohil/fasal-advisor-web",
+    "akulasairohit/sanskrit-nlp-leaderboard"
+  ],
+  "createdAt": "2024-10-23T13:18:53.000Z",
+  "safetensors": {
+    "parameters": {
+      "BF16": 2525087744
+    },
+    "total": 2525087744
+  },
+  "usedStorage": 10102346064
+}

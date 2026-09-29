@@ -1,0 +1,192 @@
+{
+  "chat_template": "nanochat native text-only markers; system merged into first user; requires corresponding SFT for learned chat behavior",
+  "dtype_policy": "original mixed dtypes preserved exactly",
+  "files": {
+    "LICENSE": {
+      "bytes": 1067,
+      "sha256": "bef9c8480c54cd6452d2a44692a6d15e18f11b97c0dda1aef5c6127152d7a6b2"
+    },
+    "LICENSE.inference": {
+      "bytes": 1318,
+      "sha256": "514122f3b2606631eb62bd7d09bdf63338996304a6e5866d315219f99b38bd23"
+    },
+    "LICENSE_SCOPE.md": {
+      "bytes": 970,
+      "sha256": "b37d8ada247dea50a34737f52596a2448f75d6bdfcb4cdbedb4a74556046f337"
+    },
+    "README.md": {
+      "bytes": 3125,
+      "sha256": "4ae698abf93bd11f2e3cf1f823066a64cc18482a217442f39ce8179e065f18b2"
+    },
+    "attribution/data-sources.json": {
+      "bytes": 46616,
+      "sha256": "8a131af1cae5b620c619ef93838dc73e28b0fc5c6a849e408607c97fc1d04f43"
+    },
+    "attribution/sft/OpenAssistant--oasst2.README.md": {
+      "bytes": 10606,
+      "sha256": "52bd472cf3cae04a4b21ecd5316f929741c47d991d4763b041c3a94de072dc31"
+    },
+    "attribution/sft/OpenAssistant--oasst2.json": {
+      "bytes": 3894,
+      "sha256": "31dc7139dcd922daf113746cc535cf8da193ca648513cc4b77db0ad467ba7c40"
+    },
+    "attribution/sft/SOURCE_NOTICE.md": {
+      "bytes": 555,
+      "sha256": "d7001c3e9e93fc6103a6725245ea818914bce8c9959b853ca7216d580c296808"
+    },
+    "attribution/sft/acquisition-receipt.json": {
+      "bytes": 3548,
+      "sha256": "44bab045bd4d37ab47fe119896ed0ca28139665029f6553e91c4a85b13e3eac9"
+    },
+    "attribution/sft/prepared-manifest.json": {
+      "bytes": 5997,
+      "sha256": "5b80cf17485d41c3d5a8770b5695c0ecc73c0fa15fb8a281ae850e0b94dd966b"
+    },
+    "infer.py": {
+      "bytes": 15622,
+      "sha256": "6bc6fa6ef1973c69f6092689f1e6d023e80b7da7c6ee23c4c00e6f1e7832afd7"
+    },
+    "model-config.json": {
+      "bytes": 145,
+      "sha256": "7669764affbbf3c181c618b454193b3ce5171c95aa5d4406a2fd5c4f34e9a932"
+    },
+    "model.pt": {
+      "bytes": 503340752,
+      "sha256": "3c08b783626915fad21231ff479e71fc8c24b8812e9d5168df3065ff160628e8"
+    },
+    "requirements.txt": {
+      "bytes": 216,
+      "sha256": "68d8a78542cab21cef537fc1178e00002f96f529b8758707f37641dbd4483b6c"
+    },
+    "tokenizer.json": {
+      "bytes": 721890,
+      "sha256": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/LICENSE": {
+      "bytes": 1072,
+      "sha256": "42bb09f339a8af8b90d3b4969b6f6e4ba4aff3b5c614103b031fccdf71c8f772"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/checkpoint_manager.py": {
+      "bytes": 8722,
+      "sha256": "aa63399ddaf2a0412dc099287bf0dc879f9cb0cce00f861db50eeec58746f3ba"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/common.py": {
+      "bytes": 13560,
+      "sha256": "b843db6e769db18d3364e42cb3742a9537a3d4cf43e5f098293babc7ddeb44bf"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/core_eval.py": {
+      "bytes": 11572,
+      "sha256": "9303997ff17fa48ad5e5730f33b7e79a687cc2a1fdad928666bb63dc3514c51d"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/dataloader.py": {
+      "bytes": 7450,
+      "sha256": "5cc72d7207931f112d685ba8e04c112e1a4ab7756dbbb29b95bdb4908a21864d"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/dataset.py": {
+      "bytes": 7014,
+      "sha256": "3ec2ad5987875e3d7f3ec72f08d78089fe8a3b20090448b798c21c4efb93d18a"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/engine.py": {
+      "bytes": 15533,
+      "sha256": "76636fc24228e72afdafe4747ff8e52a6cc60a5ec61c97205061f3bfed0a86fd"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/execution.py": {
+      "bytes": 5313,
+      "sha256": "122ce1457100a5cb20fbe9666a57006df3b0fe78c014240d2f87c35ccade2c1a"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/flash_attention.py": {
+      "bytes": 7146,
+      "sha256": "a10b0b10ad91893fcf9c9b19c96bd3468a2721cf156dcdbeeeecf05f97f22c2f"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/fp8.py": {
+      "bytes": 12008,
+      "sha256": "fb56d323639a315393b04cecd3469dc129e8c975638cfc7ced8067f647b868b6"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/gpt.py": {
+      "bytes": 28918,
+      "sha256": "8cdedc2e418b9d4dc45884e07f59904fcdec066bb3d76664b2adf2d415f704e3"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/loss_eval.py": {
+      "bytes": 3124,
+      "sha256": "00faad1e0ae8912022f79ee4bf583c4f9b4c058e4523c5674144648c49229fd6"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/optim.py": {
+      "bytes": 23314,
+      "sha256": "7c9b714c6f76e3a9d50fc530044b2767d0cd89391237e609548f1cd730afed8f"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/tokenizer.py": {
+      "bytes": 12911,
+      "sha256": "e6f12cb88fead3e6d0d45a7dd2af4192280712d92bfde83e2399cc4b3a0860fb"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/pyproject.toml": {
+      "bytes": 1310,
+      "sha256": "c91fdd03ae9705565572eee31924d4c0bca24bf5431a8eabff4c061882f94929"
+    }
+  },
+  "format": "udgam-dense-native-inference-v1",
+  "hf_compatible": false,
+  "inference_artifact_bytes_before_this_manifest": 504315288,
+  "license": "MIT",
+  "license_scope": "LICENSE_SCOPE.md; upstream and data terms retained",
+  "lineage": {
+    "initial_sft_weights_sha256": "bb706b1a7723f027cfd41fc00f30350354b2c543ae3162959940ef83aee89304",
+    "initial_weights_sha256": "ee7d9845a79374a0053ccb6258f60fe9f1a027d3cf2a17b361626ddaf1461fb1",
+    "main_checkpoint_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+    "main_horizon_complete": true,
+    "main_target_positions": 1999994880,
+    "phase": "sft",
+    "pilot_checkpoint_sha256": "c4efc11b7d4cb8260e8fc07b226d4c5f471ca4602dcfebc413aac04f6896b123",
+    "pilot_target_positions": 33554432,
+    "pretraining_target_positions": 2033549312,
+    "sft_manifest_sha256": "5b80cf17485d41c3d5a8770b5695c0ecc73c0fa15fb8a281ae850e0b94dd966b",
+    "sft_pass_complete": true,
+    "sft_processed_positions": 2888369,
+    "sft_runtime_identity": {
+      "attention": "fa3",
+      "compute_dtype": "torch.bfloat16",
+      "cuda": "12.8",
+      "device": "cuda",
+      "entrypoint_sha256": "73b03fcbb20c5b729f929557a6eb136dc6900e60e6fd04868d013dbe1de5edf7",
+      "fa3_revision": "de87b9b5af06dd9984df595bef90b2eba44b181a",
+      "gpu_name": "NVIDIA H100 80GB HBM3",
+      "modal_source_hashes": {
+        "infer_dense.py": "6bc6fa6ef1973c69f6092689f1e6d023e80b7da7c6ee23c4c00e6f1e7832afd7",
+        "modal_final_contract.py": "a3b206fad7a436eb21a8c6df7c287451cc64297eeee9575d8ba1fef81f765e77",
+        "prepare_dense_tokens.py": "5e5630dbab86775db04aa567d5481308aad5d4db3263260611413ffc866f88c9",
+        "prepare_english.py": "5d33630ab3d6598c5cbf39d6a2908211590b96e1fb765ee95bccbb15dafcc8d0",
+        "prepare_production.py": "6a33c7c1e16bdd2d9df1446195d3b8c713cfaa6548b8174eec9d3b8a51e321b0",
+        "prepare_sft.py": "c9dbce3c3610c35b97525a1f81ac5ba485c59825d0dc3de7d7f59aff4dab23dd",
+        "train_dense.py": "abaa010e9fe78a0e40837257db954609b5637969db1e5399c1655dbfb9602313",
+        "train_main.py": "cdd9a10292db979e858255e89dc9bbe2176ffd6c1f66885ab3f0c17670636e75",
+        "train_sft.py": "28f06eadab2717cd83432b0704b6d8b5efd7e355c74bb26f690dba862d876db2",
+        "train_sft_gpu.py": "e1e0b3ac6d640de228fcc5202b8c7adffc0c1fb4f74ffb9e1be5773790f3a2e4",
+        "train_sft_modal.py": "73b03fcbb20c5b729f929557a6eb136dc6900e60e6fd04868d013dbe1de5edf7"
+      },
+      "model_compile": false,
+      "numpy": "2.3.5",
+      "optimizer": "AdamW_nonfused_nonforeach",
+      "parameter_dtype": "torch.float32",
+      "torch": "2.9.1+cu128"
+    },
+    "sft_supervised_targets": 1892764,
+    "step": 1810,
+    "token_offset": 2035442076,
+    "token_offset_policy": "pretraining targets plus supervised SFT targets; masked SFT prompt positions excluded"
+  },
+  "loader": "python infer.py --prompt TEXT; strict owned weights-only mmap load, assign tensors, reconstruct rotary buffers; JSON tokenizer; offline SDPA cached generation",
+  "model_stage": "supervised_instruction_tuning",
+  "optimizer_included": false,
+  "parameter_tensor_bytes": 503317256,
+  "runtime_dependencies": "Pinned requirements.txt; Python3.11/3.12; no optimizer state, rustbpe trainer, model download or tool engine",
+  "sft_manifest_sha256": "5b80cf17485d41c3d5a8770b5695c0ecc73c0fa15fb8a281ae850e0b94dd966b",
+  "sft_pass_complete": true,
+  "sft_source_notices": "attribution/sft",
+  "source_checkpoint_sha256": "f993cf94458d2566d8aca55f1f5bdf5f68dacf9d76bbdb77af2be045a1ac61e8",
+  "total_parameters": 125829314,
+  "training_source_notices": "attribution/data-sources.json",
+  "verified_sft_checkpoint_tensors_sha256": "fee4304ce6a882354112f37176d4e745a2f69f0ea952baca9d6d32937256b97b"
+}

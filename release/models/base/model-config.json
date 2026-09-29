@@ -1,0 +1,9 @@
+{
+  "n_embd": 768,
+  "n_head": 6,
+  "n_kv_head": 2,
+  "n_layer": 12,
+  "sequence_len": 2048,
+  "vocab_size": 16384,
+  "window_pattern": "SSSL"
+}

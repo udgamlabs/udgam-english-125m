@@ -1,0 +1,132 @@
+{
+  "chat_template": "nanochat native text-only markers; system merged into first user; requires corresponding SFT for learned chat behavior",
+  "dtype_policy": "original mixed dtypes preserved exactly",
+  "files": {
+    "LICENSE": {
+      "bytes": 1067,
+      "sha256": "bef9c8480c54cd6452d2a44692a6d15e18f11b97c0dda1aef5c6127152d7a6b2"
+    },
+    "LICENSE.inference": {
+      "bytes": 1318,
+      "sha256": "514122f3b2606631eb62bd7d09bdf63338996304a6e5866d315219f99b38bd23"
+    },
+    "LICENSE_SCOPE.md": {
+      "bytes": 970,
+      "sha256": "b37d8ada247dea50a34737f52596a2448f75d6bdfcb4cdbedb4a74556046f337"
+    },
+    "README.md": {
+      "bytes": 3125,
+      "sha256": "4ae698abf93bd11f2e3cf1f823066a64cc18482a217442f39ce8179e065f18b2"
+    },
+    "attribution/data-sources.json": {
+      "bytes": 46616,
+      "sha256": "8a131af1cae5b620c619ef93838dc73e28b0fc5c6a849e408607c97fc1d04f43"
+    },
+    "infer.py": {
+      "bytes": 15622,
+      "sha256": "6bc6fa6ef1973c69f6092689f1e6d023e80b7da7c6ee23c4c00e6f1e7832afd7"
+    },
+    "model-config.json": {
+      "bytes": 145,
+      "sha256": "7669764affbbf3c181c618b454193b3ce5171c95aa5d4406a2fd5c4f34e9a932"
+    },
+    "model.pt": {
+      "bytes": 427843344,
+      "sha256": "9f91792f90160991a8e7c58922e65e88ed6d0c6c5ef3720649912f8ddf35cf73"
+    },
+    "requirements.txt": {
+      "bytes": 216,
+      "sha256": "68d8a78542cab21cef537fc1178e00002f96f529b8758707f37641dbd4483b6c"
+    },
+    "tokenizer.json": {
+      "bytes": 721890,
+      "sha256": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/LICENSE": {
+      "bytes": 1072,
+      "sha256": "42bb09f339a8af8b90d3b4969b6f6e4ba4aff3b5c614103b031fccdf71c8f772"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/checkpoint_manager.py": {
+      "bytes": 8722,
+      "sha256": "aa63399ddaf2a0412dc099287bf0dc879f9cb0cce00f861db50eeec58746f3ba"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/common.py": {
+      "bytes": 13560,
+      "sha256": "b843db6e769db18d3364e42cb3742a9537a3d4cf43e5f098293babc7ddeb44bf"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/core_eval.py": {
+      "bytes": 11572,
+      "sha256": "9303997ff17fa48ad5e5730f33b7e79a687cc2a1fdad928666bb63dc3514c51d"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/dataloader.py": {
+      "bytes": 7450,
+      "sha256": "5cc72d7207931f112d685ba8e04c112e1a4ab7756dbbb29b95bdb4908a21864d"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/dataset.py": {
+      "bytes": 7014,
+      "sha256": "3ec2ad5987875e3d7f3ec72f08d78089fe8a3b20090448b798c21c4efb93d18a"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/engine.py": {
+      "bytes": 15533,
+      "sha256": "76636fc24228e72afdafe4747ff8e52a6cc60a5ec61c97205061f3bfed0a86fd"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/execution.py": {
+      "bytes": 5313,
+      "sha256": "122ce1457100a5cb20fbe9666a57006df3b0fe78c014240d2f87c35ccade2c1a"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/flash_attention.py": {
+      "bytes": 7146,
+      "sha256": "a10b0b10ad91893fcf9c9b19c96bd3468a2721cf156dcdbeeeecf05f97f22c2f"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/fp8.py": {
+      "bytes": 12008,
+      "sha256": "fb56d323639a315393b04cecd3469dc129e8c975638cfc7ced8067f647b868b6"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/gpt.py": {
+      "bytes": 28918,
+      "sha256": "8cdedc2e418b9d4dc45884e07f59904fcdec066bb3d76664b2adf2d415f704e3"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/loss_eval.py": {
+      "bytes": 3124,
+      "sha256": "00faad1e0ae8912022f79ee4bf583c4f9b4c058e4523c5674144648c49229fd6"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/optim.py": {
+      "bytes": 23314,
+      "sha256": "7c9b714c6f76e3a9d50fc530044b2767d0cd89391237e609548f1cd730afed8f"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/nanochat/tokenizer.py": {
+      "bytes": 12911,
+      "sha256": "e6f12cb88fead3e6d0d45a7dd2af4192280712d92bfde83e2399cc4b3a0860fb"
+    },
+    "vendor/nanochat-92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/pyproject.toml": {
+      "bytes": 1310,
+      "sha256": "c91fdd03ae9705565572eee31924d4c0bca24bf5431a8eabff4c061882f94929"
+    }
+  },
+  "format": "udgam-dense-native-inference-v1",
+  "hf_compatible": false,
+  "inference_artifact_bytes_before_this_manifest": 428793280,
+  "license": "MIT",
+  "license_scope": "LICENSE_SCOPE.md; upstream and data terms retained",
+  "lineage": {
+    "initial_weights_sha256": "ee7d9845a79374a0053ccb6258f60fe9f1a027d3cf2a17b361626ddaf1461fb1",
+    "main_target_positions": 1999994880,
+    "phase": "main",
+    "pilot_checkpoint_sha256": "c4efc11b7d4cb8260e8fc07b226d4c5f471ca4602dcfebc413aac04f6896b123",
+    "pilot_target_positions": 33554432,
+    "step": 61035,
+    "token_offset": 2033549312
+  },
+  "loader": "python infer.py --prompt TEXT; strict owned weights-only mmap load, assign tensors, reconstruct rotary buffers; JSON tokenizer; offline SDPA cached generation",
+  "model_stage": "base_pretraining",
+  "optimizer_included": false,
+  "parameter_tensor_bytes": 427819784,
+  "runtime_dependencies": "Pinned requirements.txt; Python3.11/3.12; no optimizer state, rustbpe trainer, model download or tool engine",
+  "source_checkpoint_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+  "total_parameters": 125829314,
+  "training_source_notices": "attribution/data-sources.json"
+}

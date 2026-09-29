@@ -1,0 +1,103 @@
+{
+  "assistant_end_token": 16379,
+  "counts": {
+    "cross_split_duplicate_trees": 30,
+    "duplicate_target_text": 11,
+    "eligible_processed_positions_before_cap": 3106265,
+    "eligible_unique_targets_before_cap": 7781,
+    "filtered_assistant_paths": 76712,
+    "heldout_overlap_trees": 90,
+    "over_context_targets": 27,
+    "processed_tokens_all_splits": 3106265,
+    "source_messages": 135174,
+    "source_trees": 13854,
+    "unused_token_allowance": 1893735
+  },
+  "created_at_utc": "2026-09-22T12:32:25.843314+00:00",
+  "finite_policy": "Each assistant target ID and normalized answer admitted once; preceding assistants may repeat as masked context. No response truncation, wrapping or quota-filling repeats. Cap counts prompt/response/markers across all splits.",
+  "format": "udgam-finite-human-sft-v1",
+  "hashes": {
+    "dev.loss-mask.npy": "deeb9e39261ceb45a6d13ab1a479eb6d24b9c18890b7556cc181429667cb0a20",
+    "dev.offsets.npy": "c1948fbfb1ee4bcc30ff2f99afe746c0360b44ac10767d993a40abf08ab8bd27",
+    "dev.provenance.jsonl.gz": "c39ba3cb868ebc9c358e24913db0f626f5eea5fe5720926f32d98d14d6216f4c",
+    "dev.tokens.npy": "50b4a8ecb68af3cef14bf51208135f86a5de55d991bb2f0a36e33cfc4ace2a9a",
+    "final.loss-mask.npy": "83e20868076533c09074c31e1374f971a6e367622ebf7fdd4bcfec90300e3416",
+    "final.offsets.npy": "9c71f7a55633b185b8108b20e3b16afde3f855dacd1cadec5cd7eb88086b0291",
+    "final.provenance.jsonl.gz": "33247e6c01de12fa3f4833376bfc552776d71ef5f3a1cb2fb85e37c352f45741",
+    "final.tokens.npy": "b2b1621b527d8eb9127d47454b23c3a5fee4ddd6687b6eca65595ee665091ce0",
+    "source/OpenAssistant--oasst2.README.md": "52bd472cf3cae04a4b21ecd5316f929741c47d991d4763b041c3a94de072dc31",
+    "source/OpenAssistant--oasst2.json": "31dc7139dcd922daf113746cc535cf8da193ca648513cc4b77db0ad467ba7c40",
+    "source/SOURCE_NOTICE.md": "d7001c3e9e93fc6103a6725245ea818914bce8c9959b853ca7216d580c296808",
+    "source/acquisition-receipt.json": "44bab045bd4d37ab47fe119896ed0ca28139665029f6553e91c4a85b13e3eac9",
+    "tokenizer.json": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034",
+    "train.loss-mask.npy": "e9bb9d7bd08ae840efd82306eeebbc094c7dfae078e82c10130e84dbebce8142",
+    "train.offsets.npy": "f2f6ee63639fa072cd4d424c415e8902887356d6cb038ac137eaf56ed422bafd",
+    "train.provenance.jsonl.gz": "e7de133461786d337d9c61021afbc2c7b4ea2d009b2815995b33d839f2021487",
+    "train.tokens.npy": "cb1b8f0ac0045559fa8c0ea4774afc571eda8c918ed9ff323394e7af8cd90c58",
+    "tree-decisions.json": "f3744f21a70ab7c8556436d986115f4f729c99e03fa9e07bb90283cb102c9eff"
+  },
+  "limitations": [
+    "Direct normalized/word-overlap screening cannot detect every paraphrase or teacher-derived overlap.",
+    "Source review/language/human labels are source annotations, not independent adjudication.",
+    "Eligible supply and usefulness require review; no SFT trainer or training authorization is included."
+  ],
+  "lineage": {
+    "benchmark_exclusion_file_sha256": {
+      "arc_challenge.test.jsonl.gz": "b80f855613fefcdd5f3df083404f4662463788e477f80a71f87100fdb856b631",
+      "boolq.validation.jsonl.gz": "9bd51e4d36b408f1332f7762c78527bdd7e0fc4f87b970b019b34d51b8e4e92f",
+      "hellaswag.validation.jsonl.gz": "d7c3df3799ed61ea02f33f21c5c2e8ca5cb35b8e59eed6b79634247abda78276",
+      "piqa.validation.jsonl.gz": "5f7b0ac8287a1694456a5bcb5a45f2df31351bf914ca27295c047c01cd484001",
+      "winogrande.validation.jsonl.gz": "d1c79198de953478b6e73e82d405edbfb90af660f0f559575cc52e79a7720e71"
+    },
+    "benchmark_manifest_sha256": "f3cbbebb1dac51e2b2fb91f4fa786dee8c0f5b1c7045b13d12fb207673d019f9",
+    "pilot_manifest_sha256": "1d78d58cb11d72abcb8cb8c9de58d9ae5ddf20346cbed532d89722c07ae29010",
+    "pilot_source_report_sha256": "8b7feea88667a14baafb162208b4251f2a41281e496caaf798c36afae748b85f",
+    "pilot_tokenizer_sha256": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034",
+    "pilot_validation_array_sha256": "1dba998a6cddffa3b25b05bdef39ea03f13b7743536fe2c5d374396e7f6e0ea2",
+    "pilot_validation_source_sha256": "9ac111b5088351855ada0bd9e06c7a574243e40432c57aa5f8e7bd624f32b7d9"
+  },
+  "loss_alignment": "Token-aligned mask; inputs=tokens[:-1], labels=tokens[1:], loss_mask=mask[1:]; no cross-example attention.",
+  "processed_token_cap": 5000000,
+  "profile": "production",
+  "seed": 20260922,
+  "sequence_len": 2048,
+  "source": {
+    "license": "apache-2.0",
+    "receipt_sha256": "44bab045bd4d37ab47fe119896ed0ca28139665029f6553e91c4a85b13e3eac9",
+    "repo": "OpenAssistant/oasst2",
+    "revision": "179dd21fc55192153d94adb0e0ce8f69e222bf75"
+  },
+  "source_code_sha256": {
+    "infer_dense.py": "6bc6fa6ef1973c69f6092689f1e6d023e80b7da7c6ee23c4c00e6f1e7832afd7",
+    "prepare_dense_tokens.py": "5e5630dbab86775db04aa567d5481308aad5d4db3263260611413ffc866f88c9",
+    "prepare_english.py": "5d33630ab3d6598c5cbf39d6a2908211590b96e1fb765ee95bccbb15dafcc8d0",
+    "prepare_production.py": "6a33c7c1e16bdd2d9df1446195d3b8c713cfaa6548b8174eec9d3b8a51e321b0",
+    "prepare_sft.py": "c9dbce3c3610c35b97525a1f81ac5ba485c59825d0dc3de7d7f59aff4dab23dd"
+  },
+  "split_policy": "Upstream validation trees -> final; stable 2% upstream training trees -> dev; remaining -> train. Cross-split normalized message conflicts drop lower-priority entire tree (final,dev,train).",
+  "splits": {
+    "dev": {
+      "examples": 146,
+      "maximum_unbucketed_padded_compute_positions": 298862,
+      "processed_tokens": 61807,
+      "supervised_targets": 40646,
+      "trees": 100
+    },
+    "final": {
+      "examples": 398,
+      "maximum_unbucketed_padded_compute_positions": 814706,
+      "processed_tokens": 156089,
+      "supervised_targets": 100778,
+      "trees": 270
+    },
+    "train": {
+      "examples": 7237,
+      "maximum_unbucketed_padded_compute_positions": 14814139,
+      "processed_tokens": 2888369,
+      "supervised_targets": 1892764,
+      "trees": 4923
+    }
+  },
+  "status": "prepared_for_supply_review_not_training_authorization",
+  "vocab_size": 16384
+}

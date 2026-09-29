@@ -1,0 +1,46 @@
+{
+  "bootstrap_recomputed": false,
+  "comparison_checks": {
+    "all_owned_task_floors_failed": true,
+    "all_six_saved_macro_intervals_below_zero": true,
+    "analysis_and_compare_source_hashes_match_evidence": true,
+    "analysis_manifest_all_eight_member_hashes_verified": true,
+    "bootstrap_not_rerun": true,
+    "five_macros_independently_reaggregated_from_2500_items_each": {
+      "owned-base": 45.72,
+      "owned-sft": 46.4,
+      "sarvam-1": 68.08,
+      "smollm2-135m": 51.76,
+      "smollm2-360m": 57.4
+    },
+    "report_quality_table_and_interval_figures_match_records": true,
+    "six_point_differences_match_reaggregated_macros": true,
+    "stopped_session_hash_matches_analysis": true
+  },
+  "derived": true,
+  "finding": "No demonstrable prompt-format, target-mask, decoding-text, or automatic-scoring implementation defect was identified. The observed outputs support the recorded failed instruction-performance result; this bounded audit cannot exclude every implementation or numerical defect.",
+  "format": "udgam-public-independent-audit-summary-v1",
+  "human_items_graded": false,
+  "limits": [
+    "The 36 diagnostics comprise related templates, not 36 independent capability families or full IFEval.",
+    "The 12 human-rubric responses per model remain ungraded.",
+    "The broad end_marker stop reason does not log the exact terminal special-token ID. No response was empty.",
+    "No actual model cached-versus-full numerical parity rerun was performed in this audit. Existing source/fixture evidence is not a new GPU proof.",
+    "All model tensor files, full local input backup, release derivation, and billing/provider-status claims are outside this audit.",
+    "Six pairwise intervals are unadjusted; cross-candidate comparison remains exploratory. No checkpoint selection or rescoring-policy change."
+  ],
+  "models_loaded_or_scored_during_bundle_preparation": false,
+  "original_private_audit_included": false,
+  "original_private_audit_sha256": "80bb0834f251933303916b043ada82c6045f7c6702a9c040c16e933d6245c785",
+  "sft_interface_checks": {
+    "all_examples_begin_bos": true,
+    "all_examples_within_2048_context": true,
+    "all_prepared_array_hashes_match_manifest": true,
+    "examples_checked": 7237,
+    "first_supervised_token_predicted_from_assistant_start": true,
+    "loss_mask_contiguous_final_assistant_content_plus_end_only": true,
+    "no_off_by_one_shift_identified": true,
+    "supervised_next_token_targets": 1892764,
+    "training_and_inference_share_native_conversation_rendering": true
+  }
+}

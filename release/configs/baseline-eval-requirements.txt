@@ -1,0 +1,8 @@
+# Separate evaluation venv only. Do not install into frozen .venv_gpu.
+# Install torch from the same official cu128 index as the training environment.
+torch==2.9.1
+numpy==2.3.5
+huggingface-hub==1.32.0
+transformers==5.17.0
+tokenizers==0.23.2
+safetensors==0.8.0

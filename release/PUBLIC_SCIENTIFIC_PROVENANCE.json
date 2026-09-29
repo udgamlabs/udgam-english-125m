@@ -1,0 +1,184 @@
+{
+  "architecture": {
+    "n_embd": 768,
+    "n_head": 6,
+    "n_kv_head": 2,
+    "n_layer": 12,
+    "sequence_len": 2048,
+    "vocab_size": 16384,
+    "window_pattern": "SSSL"
+  },
+  "data_sources": {
+    "path": "research/data_sources.json",
+    "sha256": "8a131af1cae5b620c619ef93838dc73e28b0fc5c6a849e408607c97fc1d04f43"
+  },
+  "derivation": "Explicit scientific-field projection; not the unchanged private operational proof.",
+  "format": "udgam-derived-public-scientific-provenance-v1",
+  "frozen_quality": {
+    "comparisons": [
+      {
+        "path": "results/comparisons/owned-base-vs-sarvam-1.json",
+        "sha256": "98ff2feaa89adfb086be6ee3c1c0fd5521dcbc1846a00079f5e34831cb2f1953"
+      },
+      {
+        "path": "results/comparisons/owned-base-vs-smollm2-135m.json",
+        "sha256": "b7499bac6ecd0e97822a402aa6bc396740c0dfbe7bb45f8aadb32a4867033ef7"
+      },
+      {
+        "path": "results/comparisons/owned-base-vs-smollm2-360m.json",
+        "sha256": "882d90889e3af0d2cda358a018fbf2f2d05c40bf7e2c8836f17320395f92125b"
+      },
+      {
+        "path": "results/comparisons/owned-sft-vs-sarvam-1.json",
+        "sha256": "956fad2f7008e2d7b48230b70078460d37898887e6d60e1e029a8bb1087a1c33"
+      },
+      {
+        "path": "results/comparisons/owned-sft-vs-smollm2-135m.json",
+        "sha256": "7df56aed51a0e7f3dd0bd39d77a713f1d1cedb9c2a721d2b70f8f5175e1bf51e"
+      },
+      {
+        "path": "results/comparisons/owned-sft-vs-smollm2-360m.json",
+        "sha256": "618b4265731cf91d9f67d76a452593406adb6d3fd86e613ae44739b82716ca9a"
+      }
+    ],
+    "final_scores_used_to_select_or_retrain": false,
+    "models": [
+      {
+        "macro_accuracy_percent": 45.72,
+        "model": "owned-base",
+        "parameters": 125829314,
+        "quality_floors_pass": false
+      },
+      {
+        "macro_accuracy_percent": 46.400000000000006,
+        "model": "owned-sft",
+        "parameters": 125829314,
+        "quality_floors_pass": false
+      },
+      {
+        "macro_accuracy_percent": 68.08,
+        "model": "sarvam-1",
+        "parameters": 2525087744,
+        "quality_floors_pass": true
+      },
+      {
+        "macro_accuracy_percent": 51.76,
+        "model": "smollm2-135m",
+        "parameters": 134515008,
+        "quality_floors_pass": false
+      },
+      {
+        "macro_accuracy_percent": 57.4,
+        "model": "smollm2-360m",
+        "parameters": 361821120,
+        "quality_floors_pass": false
+      }
+    ],
+    "pareto_frontier_established": false,
+    "quality_target_met": false,
+    "summary_path": "results/quality-and-resources.json",
+    "summary_sha256": "dc6feaa2e918d22ae02f7dbbae7432a087b7081eca56364d7e5921d78695335e"
+  },
+  "full_local_input_and_return_provenance_verified": true,
+  "limitations": [
+    "Separate provenance files accompany exports; full repair proof is not embedded in native weights.",
+    "Original checkpoint bytes were retained; only its in-memory future-data contract was migrated before numerical resume.",
+    "Captured excluded family was outside the preserved consumed/accepted prefix; this is not universal benchmark-overlap clearance.",
+    "Local libm recomputation of positive finite SFT history learning rates permits at most4 binary64 ULP; exact optimizer endpoint and all original byte/tensor/count/lineage gates remain mandatory.",
+    "This is an additive portable validator, not a claim that the unmodified exact-history adapter passes on this platform or that original Linux math was replayed.",
+    "Original operational records and training-input backup remain private; their hashes identify the evidence.",
+    "Random initial weights and owned tokenizer do not remove the disclosed upstream-data and synthetic-teacher dependencies.",
+    "Both models scored 0/24 strict automatic instruction checks; 12 human-rubric items per model remain unscored.",
+    "Implementation-specific forced-token GPU timing is not an end-user latency or matched-backend superiority result.",
+    "Inference and additive fine-tuning are usable independently; full historical cloud reproduction requires data preparation and an actual bounded provider lifecycle.",
+    "The negative result concerns this recipe; it does not prove every experiment under $100 must fail."
+  ],
+  "local_inference_validation": {
+    "path": "PUBLIC_LOCAL_VALIDATION.json",
+    "sha256": "3796c8fafdefa5d862f5089a0c8c33e0686ccacbe7e3c4453cf2c53a9eb00621"
+  },
+  "native_exports": {
+    "base": {
+      "all_export_file_bytes_verified": true,
+      "exact_checkpoint_tensor_equality": true,
+      "export_manifest_sha256": "c04c936e46f1555dd9e46a9bbe9ad3938971f719bb7b2a1f315cdcc054d65350",
+      "file_count": 27,
+      "model_artifact": {
+        "path": "model.pt",
+        "sha256": "9f91792f90160991a8e7c58922e65e88ed6d0c6c5ef3720649912f8ddf35cf73",
+        "size_bytes": 427843344
+      },
+      "source_checkpoint_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+      "tokenizer_sha256": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034",
+      "total_bytes": 428799226
+    },
+    "conversation": {
+      "all_export_file_bytes_verified": true,
+      "exact_checkpoint_tensor_equality": true,
+      "export_manifest_sha256": "1d97109ab60737dde113461633a247aa9d8cc9de9a0de927dafdead82704cf84",
+      "file_count": 32,
+      "model_artifact": {
+        "path": "model.pt",
+        "sha256": "3c08b783626915fad21231ff479e71fc8c24b8812e9d5168df3065ff160628e8",
+        "size_bytes": 503340752
+      },
+      "source_checkpoint_sha256": "f993cf94458d2566d8aca55f1f5bdf5f68dacf9d76bbdb77af2be045a1ac61e8",
+      "tokenizer_sha256": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034",
+      "total_bytes": 504324562
+    }
+  },
+  "portable_history_validation": {
+    "allowed_binary64_ulps": 4,
+    "different_local_recomputations": 53,
+    "exact_optimizer_endpoint_comparison_preserved": true,
+    "history_entries": 1810,
+    "maximum_absolute_error": 1.3552527156068805e-20,
+    "maximum_relative_error": 4.741269689226736e-16,
+    "maximum_ulps": 3,
+    "original_exact_history_path_passes_local_recomputation": false,
+    "original_linux_math_replayed": false,
+    "original_source_sha256": {
+      "assemble_release_provenance.py": "602c6058a03781a3dda18b21f7139cecf26db05e0d27b91a36af3bb2a0aa6a33",
+      "sft_checkpoint_adapter.py": "5aa036aff93918b37e6a914796a6e7a964537a0ae8aca419733279d5744f0440"
+    },
+    "policy": "udgam-sft-history-lr-portability-4ulp-v1",
+    "portable_validator_sha256": "bbb43de2efc2816dad804c797553e0b4ab4fcdf2c8905a079208b229f5a59f52",
+    "stored_history_or_checkpoint_changed": false
+  },
+  "private_full_proof_sha256": "9267e300bd056ac243809dc100d2acc7a17847c7bb161827329e143e281ab255",
+  "private_proof_format": "udgam-repaired-release-provenance-portable-v1",
+  "public_publication_performed": false,
+  "scientific_lineage": {
+    "anchors": {
+      "evaluation_delta": "2d7f76bae751b88c52826a4d503191b56e9bf23a06d977a297f467dac17370fd",
+      "input": "a2ab933da89a9ff4d9d8daff16818a0c2b3c6bdd8560d802ae1edc5e9cde16d1",
+      "main_delta": "e82ceb579531141f5f593ee73931fbeb8efca5b7ef73e6bc1f489b888e75f902",
+      "sft_delta": "2c4041819055c08879c654e79df1244372cbb15007a27137df811de1a5d6df5e"
+    },
+    "completed_main_checkpoint_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+    "completed_sft_checkpoint_sha256": "f993cf94458d2566d8aca55f1f5bdf5f68dacf9d76bbdb77af2be045a1ac61e8",
+    "initial_weights_sha256": "ee7d9845a79374a0053ccb6258f60fe9f1a027d3cf2a17b361626ddaf1461fb1",
+    "main_step": 61035,
+    "main_target_positions": 1999994880,
+    "migration_helper_sha256": "aa422195ce61f67a3f31cf668378c88ef391ce464f28c8a831c5dd007a24929e",
+    "migration_proof_sha256": "3daa9670d2d77a430d3467ba47f5aa05f5329d789852d5efa803563bb1b12e76",
+    "new_stage_contract_sha256": "ff3e687ae4ee00e819cfca9acedb3acd54e46227372c11d4d737feb187ec7dc4",
+    "old_stage_contract_sha256": "17a1761bfe727e213a110cba89d40907bc0c2bffc70fe8f761fd7b9f553d2acd",
+    "original_checkpoint_sha256": "9fc9fdfa07b202acee33c351542448ee55968bbd5311c079fdfc55a823637fdb",
+    "original_cursor": {
+      "row_in_shard": 168,
+      "shard_id": 35,
+      "total_rows": 97984
+    },
+    "original_step": 6124,
+    "protected_inventory_sha256": "642aeb0316a5d60a7e12018709779182e5df16550cf808ab38f4202069a27967",
+    "repair_plan_sha256": "a409408ed873468f666c3eb76fc5065704df9d41434ff96a8501244184bd876c",
+    "repair_receipt_sha256": "db799d3a402689697a1b21e97231b431973b7ef36f15e1f35c8f0647a3284977",
+    "sft_finite_counts": {
+      "processed_positions": 2888369,
+      "supervised_targets": 1892764
+    },
+    "sft_main_parent_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+    "tokenizer_sha256": "1967afcf40ffc3bf110ab965dab4be7436ed2d9f7e6c77efbb1aff9d8221e034"
+  }
+}

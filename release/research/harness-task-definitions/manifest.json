@@ -1,0 +1,18 @@
+{
+  "revision": "d6de81643928d653435c431bae19945d41d32520",
+  "commit_date": "2026-09-14T10:51:05Z",
+  "files": {
+    "lm_eval/models/huggingface.py": "56d215b8f713d7579f9c7b58a9b8771b09c88e0e4fb8d1b6dd9068033b614b80",
+    "lm_eval/api/task.py": "4c25a4f1949488483b833ce4fcf91cfd3e066084a9ea00079c6879ae3ba95657",
+    "lm_eval/api/model.py": "b8b1db336e168b53d9ca808fe837d5bf8943d9dca76a14cf747e4f3a22d50545",
+    "lm_eval/tasks/piqa/piqa.yaml": "e874f7956ccac325b888d4a5dc600bad867b79fba2bd358fe8761ab8263270fb",
+    "lm_eval/tasks/winogrande/default.yaml": "7a73c28f1c760f1f54b4185f21f8df5927c1fe7278a8520f38ee03cc7f40d9e7",
+    "lm_eval/tasks/winogrande/preprocess_winogrande.py": "e55327629264a98f1d383fda24645b6779afb53fa0bce2150042b9416b1ae006",
+    "lm_eval/tasks/hellaswag/utils.py": "07d23b60b28f2a4f658dcf8440623a63fe6644854ce9b846a114dde980dc1214",
+    "lm_eval/tasks/hellaswag/hellaswag.yaml": "e9ef8ac3fed02bf283777d946ae76cbf906152e9c92533c9794e5a9dad78d1cf",
+    "lm_eval/tasks/arc/arc_easy.yaml": "96da1d9efe1df88659481cedc13985cb347dc068554a2eae561303fa39bfab3f",
+    "lm_eval/tasks/arc/arc_challenge.yaml": "682621c26ae24b1065a2d732460a55a8ef2b9f2544574431666c9309a9efd7bd",
+    "lm_eval/tasks/super_glue/boolq/default.yaml": "1956532a93f62ed476665d09a4b8c19e701534433bcdc4b56cd6f867876a47de",
+    "lm_eval/config/task.py": "c9ec7ce71a5ee6c84cd85436eec47a8fdf9842f2bd7011cc336c83ecb4cd958a"
+  }
+}

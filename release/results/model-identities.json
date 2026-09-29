@@ -1,0 +1,115 @@
+{
+  "all_original_item_chains_verified": true,
+  "derived": true,
+  "format": "udgam-public-evaluation-identities-v1",
+  "models": {
+    "owned-base": {
+      "canonical_evaluation_contract_sha256": "47f16b6646cbd0ad076318b054fdecbdaf74ee5bb23228cfdf1aaf56ab9922c8",
+      "checkpoint_or_snapshot_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+      "evaluation_contract_file_sha256": "e6cd6cc0c7df904496e5aa7559a21fe3d85a8e2b3cc092162bc2199e437dc28b",
+      "harness_revision": "d6de81643928d653435c431bae19945d41d32520",
+      "last_original_item_chain_sha256": "23d1e315ded99ca269750d74a10aabaf54a91764006ee3e82192b54b0b02fc6d",
+      "original_items_sha256": "b0c0f62f72e5cb54982888b5d6f88feed34ab11d6ef2bf0c21e5823777125e92",
+      "original_requests_file_sha256": "6690adcf27df2fb9de118b921eb76581bd13dfca18376c445f9f3a70beae6b63",
+      "scoring_dtype": "bfloat16",
+      "task_definition_manifest_sha256": "d6855ddd28dd65ba26bc9fad9085785b7fdc85bd1ba40bc622c2dcad7258794d",
+      "upstream_model": null
+    },
+    "owned-sft": {
+      "canonical_evaluation_contract_sha256": "d848a51b413c265b17a02085b604f1ef4a0626423628f1957397f07874eb837b",
+      "checkpoint_or_snapshot_sha256": "f993cf94458d2566d8aca55f1f5bdf5f68dacf9d76bbdb77af2be045a1ac61e8",
+      "evaluation_contract_file_sha256": "2b85804df861fad25a2653152a196a0e32d80087cad1fa483176d15bc376eda0",
+      "harness_revision": "d6de81643928d653435c431bae19945d41d32520",
+      "last_original_item_chain_sha256": "77ad6a35dbc109a44206ee45daff7a083f3c6c1f870c88600425d00057c5db95",
+      "original_items_sha256": "a5cf002c17e3b19c848229af7d100f1f91182687c23654eae874a2f422b788ab",
+      "original_requests_file_sha256": "6690adcf27df2fb9de118b921eb76581bd13dfca18376c445f9f3a70beae6b63",
+      "scoring_dtype": "bfloat16",
+      "task_definition_manifest_sha256": "d6855ddd28dd65ba26bc9fad9085785b7fdc85bd1ba40bc622c2dcad7258794d",
+      "upstream_model": null
+    },
+    "sarvam-1": {
+      "canonical_evaluation_contract_sha256": "f1468a7b4992177bad4876a402ff4251c1c39a718a11a489e41347f24e574b58",
+      "checkpoint_or_snapshot_sha256": "9569dd5e892e37120674a9d947d58d9acc5b7a95a0b0380c59a110fd7455de58",
+      "evaluation_contract_file_sha256": "aeb1e2a078dc1804651f07f1790519847c9e5333282a20d8406a43177bdd0e9b",
+      "harness_revision": "d6de81643928d653435c431bae19945d41d32520",
+      "last_original_item_chain_sha256": "42a1fce48eccc1c13f6b145c7e310ae7494d94c189761d629d5b440a063d9ac2",
+      "original_items_sha256": "878b9c2650e79134d31d42ab7da564104d584e7fbff48e48d30357386d2b8a9b",
+      "original_requests_file_sha256": "6690adcf27df2fb9de118b921eb76581bd13dfca18376c445f9f3a70beae6b63",
+      "scoring_dtype": "bfloat16",
+      "task_definition_manifest_sha256": "d6855ddd28dd65ba26bc9fad9085785b7fdc85bd1ba40bc622c2dcad7258794d",
+      "upstream_model": {
+        "attention_backend": "sdpa",
+        "batch_size": 4,
+        "parameter_dtype": "bfloat16",
+        "repo": "sarvamai/sarvam-1",
+        "revision": "e9607337286ddf496d4a2562b194e489dcf3feea",
+        "runtime_versions": {
+          "huggingface-hub": "1.32.0",
+          "numpy": "2.3.5",
+          "safetensors": "0.8.0",
+          "tokenizers": "0.23.2",
+          "torch": "2.9.1+cu128",
+          "transformers": "5.17.0"
+        },
+        "snapshot_sha256": "9569dd5e892e37120674a9d947d58d9acc5b7a95a0b0380c59a110fd7455de58"
+      }
+    },
+    "smollm2-135m": {
+      "canonical_evaluation_contract_sha256": "e22f0431e21d6e16e4f1070a728ce4d2b096951a5f2e699756e6000f4acf981a",
+      "checkpoint_or_snapshot_sha256": "5be0af8bcd0024c4dd5fe1d29d3f38dd9f7016640bd17e8d2fdefc55fbdb1b05",
+      "evaluation_contract_file_sha256": "beb1a1f4503d309af4890c508f3eb3a88461a719509967b57342d6d9c9d01337",
+      "harness_revision": "d6de81643928d653435c431bae19945d41d32520",
+      "last_original_item_chain_sha256": "c83acf61ed05ccc8fd2f8814a9c72984df4b70e71360f17622549f848df0811c",
+      "original_items_sha256": "27fe69f554df774337e0dc98ed1d25a006f15341f3397e3b9aa075ff2e0d5f9f",
+      "original_requests_file_sha256": "6690adcf27df2fb9de118b921eb76581bd13dfca18376c445f9f3a70beae6b63",
+      "scoring_dtype": "bfloat16",
+      "task_definition_manifest_sha256": "d6855ddd28dd65ba26bc9fad9085785b7fdc85bd1ba40bc622c2dcad7258794d",
+      "upstream_model": {
+        "attention_backend": "sdpa",
+        "batch_size": 4,
+        "parameter_dtype": "bfloat16",
+        "repo": "HuggingFaceTB/SmolLM2-135M",
+        "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+        "runtime_versions": {
+          "huggingface-hub": "1.32.0",
+          "numpy": "2.3.5",
+          "safetensors": "0.8.0",
+          "tokenizers": "0.23.2",
+          "torch": "2.9.1+cu128",
+          "transformers": "5.17.0"
+        },
+        "snapshot_sha256": "5be0af8bcd0024c4dd5fe1d29d3f38dd9f7016640bd17e8d2fdefc55fbdb1b05"
+      }
+    },
+    "smollm2-360m": {
+      "canonical_evaluation_contract_sha256": "9a89cc25d0da57a7a8d722d21f9cca7f08a83d5ed5a5341152f50c2ababcba29",
+      "checkpoint_or_snapshot_sha256": "09789a57b409bd8ece827cf12344732676847333a84e53366791d0beef8b2112",
+      "evaluation_contract_file_sha256": "e32abc88169cbfdc47f54eff914a1c83b730cd61fc972a090f40077dde4fc8c2",
+      "harness_revision": "d6de81643928d653435c431bae19945d41d32520",
+      "last_original_item_chain_sha256": "bc02761f0488fc6ae884c033f65160b20a4dd44ecc7034300ae814f8c4780090",
+      "original_items_sha256": "fdfda68078699005af1b5bd10d91248432f1f57c48c69e729e0b886ecfe7c03b",
+      "original_requests_file_sha256": "6690adcf27df2fb9de118b921eb76581bd13dfca18376c445f9f3a70beae6b63",
+      "scoring_dtype": "bfloat16",
+      "task_definition_manifest_sha256": "d6855ddd28dd65ba26bc9fad9085785b7fdc85bd1ba40bc622c2dcad7258794d",
+      "upstream_model": {
+        "attention_backend": "sdpa",
+        "batch_size": 4,
+        "parameter_dtype": "bfloat16",
+        "repo": "HuggingFaceTB/SmolLM2-360M",
+        "revision": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+        "runtime_versions": {
+          "huggingface-hub": "1.32.0",
+          "numpy": "2.3.5",
+          "safetensors": "0.8.0",
+          "tokenizers": "0.23.2",
+          "torch": "2.9.1+cu128",
+          "transformers": "5.17.0"
+        },
+        "snapshot_sha256": "09789a57b409bd8ece827cf12344732676847333a84e53366791d0beef8b2112"
+      }
+    }
+  },
+  "original_benchmark_manifest_sha256": "f3cbbebb1dac51e2b2fb91f4fa786dee8c0f5b1c7045b13d12fb207673d019f9",
+  "shared_request_order_verified": true,
+  "weights_included": false
+}

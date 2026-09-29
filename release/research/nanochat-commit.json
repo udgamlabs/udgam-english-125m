@@ -1,0 +1,84 @@
+[
+  {
+    "sha": "92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+    "node_id": "C_kwDOQBnJRdoAKDkyZDYzZDRlOGJiNGRmNzVjM2I3MTYxOGYzMWRkZGUyMzc4YjJiY2Q",
+    "commit": {
+      "author": {
+        "name": "Andrej Karpathy",
+        "email": "andrej.karpathy@gmail.com",
+        "date": "2026-07-03T22:54:57Z"
+      },
+      "committer": {
+        "name": "Andrej Karpathy",
+        "email": "andrej.karpathy@gmail.com",
+        "date": "2026-07-03T22:54:57Z"
+      },
+      "message": "clean up fragile code",
+      "tree": {
+        "sha": "c6d965b5d89fe9e3d673d2c899c505b11f843772",
+        "url": "https://api.github.com/repos/karpathy/nanochat/git/trees/c6d965b5d89fe9e3d673d2c899c505b11f843772"
+      },
+      "url": "https://api.github.com/repos/karpathy/nanochat/git/commits/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null,
+        "verified_at": null
+      }
+    },
+    "url": "https://api.github.com/repos/karpathy/nanochat/commits/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+    "html_url": "https://github.com/karpathy/nanochat/commit/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd",
+    "comments_url": "https://api.github.com/repos/karpathy/nanochat/commits/92d63d4e8bb4df75c3b71618f31ddde2378b2bcd/comments",
+    "author": {
+      "login": "karpathy",
+      "id": 241138,
+      "node_id": "MDQ6VXNlcjI0MTEzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karpathy",
+      "html_url": "https://github.com/karpathy",
+      "followers_url": "https://api.github.com/users/karpathy/followers",
+      "following_url": "https://api.github.com/users/karpathy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/karpathy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/karpathy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/karpathy/subscriptions",
+      "organizations_url": "https://api.github.com/users/karpathy/orgs",
+      "repos_url": "https://api.github.com/users/karpathy/repos",
+      "events_url": "https://api.github.com/users/karpathy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/karpathy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "karpathy",
+      "id": 241138,
+      "node_id": "MDQ6VXNlcjI0MTEzOA==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/241138?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/karpathy",
+      "html_url": "https://github.com/karpathy",
+      "followers_url": "https://api.github.com/users/karpathy/followers",
+      "following_url": "https://api.github.com/users/karpathy/following{/other_user}",
+      "gists_url": "https://api.github.com/users/karpathy/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/karpathy/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/karpathy/subscriptions",
+      "organizations_url": "https://api.github.com/users/karpathy/orgs",
+      "repos_url": "https://api.github.com/users/karpathy/repos",
+      "events_url": "https://api.github.com/users/karpathy/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/karpathy/received_events",
+      "type": "User",
+      "user_view_type": "public",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "eb16d017f28f9642958e09ca9b2c42667159031f",
+        "url": "https://api.github.com/repos/karpathy/nanochat/commits/eb16d017f28f9642958e09ca9b2c42667159031f",
+        "html_url": "https://github.com/karpathy/nanochat/commit/eb16d017f28f9642958e09ca9b2c42667159031f"
+      }
+    ]
+  }
+]

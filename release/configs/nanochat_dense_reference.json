@@ -1,0 +1,14 @@
+{
+  "status": "reference_configuration_only_not_cloud_launch_ready",
+  "role": "selected_primary_first_pilot_candidate",
+  "sequence_len": 2048,
+  "vocab_size": 16384,
+  "n_layer": 12,
+  "n_head": 6,
+  "n_kv_head": 2,
+  "n_embd": 768,
+  "window_pattern": "SSSL",
+  "total_parameters": 125829314,
+  "initialization": "random_weights_only",
+  "source_revision": "92d63d4e8bb4df75c3b71618f31ddde2378b2bcd"
+}

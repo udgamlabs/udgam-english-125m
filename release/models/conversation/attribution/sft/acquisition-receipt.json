@@ -1,0 +1,81 @@
+{
+  "acquired_at_utc": "2026-09-22T12:31:15.279732+00:00",
+  "download_cost_usd": 0,
+  "downloaded_source_bytes": 66674129,
+  "files": [
+    {
+      "bytes": 63494018,
+      "http_observations": [
+        {
+          "host": "huggingface.co",
+          "path": "/datasets/OpenAssistant/oasst2/resolve/179dd21fc55192153d94adb0e0ce8f69e222bf75/data/train-00000-of-00001-88ba0162028a73fc.parquet",
+          "status": 302,
+          "x_linked_etag": "\"9638227b41b0a4fb69afa5d5c4b52e3fb6abfd56c9870d81bae32c9981e769b1\"",
+          "x_linked_size": "63494018",
+          "x_repo_commit": "179dd21fc55192153d94adb0e0ce8f69e222bf75"
+        },
+        {
+          "host": "us.aws.cdn.hf.co",
+          "path": "/xet-bridge-us/6587ff94509bcae23f71024d/b8508b0f32db854e0fb7d05cae8dfffe5461b3d8464ea8d9e49c757efcbc747b",
+          "status": 200,
+          "x_linked_etag": null,
+          "x_linked_size": null,
+          "x_repo_commit": null
+        }
+      ],
+      "observed_revision": "179dd21fc55192153d94adb0e0ce8f69e222bf75",
+      "path": "train.parquet",
+      "repo_path": "data/train-00000-of-00001-88ba0162028a73fc.parquet",
+      "rows": 128575,
+      "sha256": "9638227b41b0a4fb69afa5d5c4b52e3fb6abfd56c9870d81bae32c9981e769b1",
+      "split": "train",
+      "url": "https://huggingface.co/datasets/OpenAssistant/oasst2/resolve/179dd21fc55192153d94adb0e0ce8f69e222bf75/data/train-00000-of-00001-88ba0162028a73fc.parquet"
+    },
+    {
+      "bytes": 3180111,
+      "http_observations": [
+        {
+          "host": "huggingface.co",
+          "path": "/datasets/OpenAssistant/oasst2/resolve/179dd21fc55192153d94adb0e0ce8f69e222bf75/data/validation-00000-of-00001-1deeef95c3248fe0.parquet",
+          "status": 302,
+          "x_linked_etag": "\"fd46c63babc0756909a957ee40975bcf5610d58c5d1ab5ff2c57c0f57be1f273\"",
+          "x_linked_size": "3180111",
+          "x_repo_commit": "179dd21fc55192153d94adb0e0ce8f69e222bf75"
+        },
+        {
+          "host": "us.aws.cdn.hf.co",
+          "path": "/xet-bridge-us/6587ff94509bcae23f71024d/50138c38b62a8e57adf45f9a26944f926191a1cff91b1936da51ed0e87ec8db2",
+          "status": 200,
+          "x_linked_etag": null,
+          "x_linked_size": null,
+          "x_repo_commit": null
+        }
+      ],
+      "observed_revision": "179dd21fc55192153d94adb0e0ce8f69e222bf75",
+      "path": "validation.parquet",
+      "repo_path": "data/validation-00000-of-00001-1deeef95c3248fe0.parquet",
+      "rows": 6599,
+      "sha256": "fd46c63babc0756909a957ee40975bcf5610d58c5d1ab5ff2c57c0f57be1f273",
+      "split": "validation",
+      "url": "https://huggingface.co/datasets/OpenAssistant/oasst2/resolve/179dd21fc55192153d94adb0e0ce8f69e222bf75/data/validation-00000-of-00001-1deeef95c3248fe0.parquet"
+    }
+  ],
+  "license": "apache-2.0",
+  "metadata_http_observations": [
+    {
+      "host": "huggingface.co",
+      "path": "/api/datasets/OpenAssistant/oasst2/tree/179dd21fc55192153d94adb0e0ce8f69e222bf75/data",
+      "status": 200,
+      "x_linked_etag": null,
+      "x_linked_size": null,
+      "x_repo_commit": null
+    }
+  ],
+  "metadata_sha256": "8cb9eb90d51059f7e47d18de0a2d1ebf7757a5f0a00ad95c96f6e6ade11c2d4e",
+  "metadata_url": "https://huggingface.co/api/datasets/OpenAssistant/oasst2/tree/179dd21fc55192153d94adb0e0ce8f69e222bf75/data",
+  "profile": "pinned_acquisition",
+  "repo": "OpenAssistant/oasst2",
+  "revision": "179dd21fc55192153d94adb0e0ce8f69e222bf75",
+  "source_byte_cap": 134217728,
+  "source_code_sha256": "0f5b7acf9c994f71f3ad26b28bf820d00c1dd8374ab690905c6a09fc628d01dc"
+}

@@ -1,0 +1,6 @@
+# Install once using your platform's official PyTorch wheel channel as needed.
+# Inference itself makes no downloads. No training optimizer state is loaded.
+torch==2.9.1
+numpy==2.3.5
+tiktoken==0.14.0
+filelock==4.0.1

@@ -1,0 +1,28 @@
+{
+  "models": [
+    {
+      "repo": "sarvamai/sarvam-1",
+      "revision": "e9607337286ddf496d4a2562b194e489dcf3feea",
+      "model_type": "llama",
+      "license": null,
+      "observed_at_utc": "2026-09-22T09:21:29.072460+00:00"
+    },
+    {
+      "repo": "HuggingFaceTB/SmolLM2-135M",
+      "revision": "93efa2f097d58c2a74874c7e644dbc9b0cee75a2",
+      "model_type": "llama",
+      "license": "apache-2.0",
+      "observed_at_utc": "2026-09-22T09:21:29.570884+00:00"
+    },
+    {
+      "repo": "HuggingFaceTB/SmolLM2-360M",
+      "revision": "f8027fd0eaeea54caa13c31d31b9fdc459c38b49",
+      "model_type": "llama",
+      "license": "apache-2.0",
+      "observed_at_utc": "2026-09-22T09:21:30.075533+00:00"
+    }
+  ],
+  "transformers_latest_observed": "5.17.0",
+  "weights_downloaded": false,
+  "evaluated": false
+}

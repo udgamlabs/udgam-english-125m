@@ -1,0 +1,49 @@
+{
+  "derived": true,
+  "external_model_chat_comparison": false,
+  "format": "udgam-public-instruction-diagnostics-v1",
+  "human_items_graded": 0,
+  "models": {
+    "owned-base": {
+      "automatic_accuracy": 0.0,
+      "automatic_correct": 0,
+      "automatic_total": 24,
+      "checkpoint_sha256": "73680732c4d2b5ce9f7335e3cfed69f4968b020a0fc456fa2a8becbf396b276d",
+      "expected": 36,
+      "human_items_unscored": 12,
+      "human_review_complete": false,
+      "human_score": null,
+      "original_response_file_sha256": "f80c6744ea0a9cf106f117e70af52b78c99c8fd850de57c5a2d95ef3b1381474",
+      "original_summary_sha256": "27538039a20328513f2d2b8b8f8cff52983c09b8295f963c7344b932190c130a",
+      "received": 36,
+      "responses_complete": true,
+      "stop_counts": {
+        "length": 36
+      },
+      "suite_sha256": "0a9a44c4863119d5beff3ce48b7b62def430e89efe285cdf69931fc0b44d0a97"
+    },
+    "owned-sft": {
+      "automatic_accuracy": 0.0,
+      "automatic_correct": 0,
+      "automatic_total": 24,
+      "checkpoint_sha256": "f993cf94458d2566d8aca55f1f5bdf5f68dacf9d76bbdb77af2be045a1ac61e8",
+      "expected": 36,
+      "human_items_unscored": 12,
+      "human_review_complete": false,
+      "human_score": null,
+      "original_response_file_sha256": "001b29a64431ec4746ce1a674c6278edc3f97a0f99ca74f6a3a240e77030e915",
+      "original_summary_sha256": "86607bffb463310f456cb42e0ac12976beef079572c4592ea76f753bce4d0fcb",
+      "received": 36,
+      "responses_complete": true,
+      "stop_counts": {
+        "end_marker": 21,
+        "length": 15
+      },
+      "suite_sha256": "0a9a44c4863119d5beff3ce48b7b62def430e89efe285cdf69931fc0b44d0a97"
+    }
+  },
+  "raw_prompts_or_responses_included": false,
+  "scope": "36 related original diagnostic templates per model, not IFEval or a general instruction benchmark.",
+  "semantic_format_nuance": "One SFT response correctly named violet in a sentence but failed the single-word request. Other failures included wrong arithmetic, incorrect reversal, irrelevance and repetition. Zero strict success does not mean every response lacked useful content.",
+  "strict_rule": "NFC plus outer whitespace trim; exact requested answer or exact JSON object."
+}
