@@ -10,7 +10,7 @@ First public distribution of the sealed 24 September 2026 experiment. The public
 
 ## Downloads and integrity
 
-The Hugging Face snapshot at `UdgamLabs/udgam-english-125m`, tag `v0.1.0`, contains the complete unchanged distribution under `release/`. The GitHub repository is source-only and omits both `model.pt` files. The attached original sealed ZIP is the complete distribution; GitHub's automatic source-code archives are not substitutes for it.
+The Hugging Face snapshot at `udgamlabs/udgam-english-125m`, tag `v0.1.0`, contains the complete unchanged distribution under `release/`. The GitHub repository is source-only and omits both `model.pt` files. The attached original sealed ZIP is the complete distribution; GitHub's automatic source-code archives are not substitutes for it.
 
 | Artifact | SHA256 |
 |---|---|

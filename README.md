@@ -1,3 +1,7 @@
+![Udgam English 125M · Udgam Labs](./assets/banner.png)
+
+**UDGAM LABS** · Experimental language model · 125M parameters
+
 # Udgam English 125M
 
 **v0.1.0 · An open English model experiment from Udgam Labs**
@@ -6,7 +10,7 @@ We trained a 125,829,314-parameter model from random weights and built our own 1
 
 **The performance target failed.** This recipe did not beat Sarvam-1 or the smaller SmolLM2 baselines. It is a research artifact, not a reliable general assistant.
 
-[Download models on Hugging Face](https://huggingface.co/UdgamLabs/udgam-english-125m/tree/v0.1.0) · [Complete distribution ZIP](https://github.com/UdgamLabs/udgam-english-125m/releases/tag/v0.1.0) · [Udgam Labs](https://www.udgamlabs.com/)
+[Download models on Hugging Face](https://huggingface.co/udgamlabs/udgam-english-125m/tree/v0.1.0) · [Complete distribution ZIP](https://github.com/udgamlabs/udgam-english-125m/releases/tag/v0.1.0) · [Udgam Labs](https://www.udgamlabs.com/)
 
 ## Results we are releasing
 
@@ -21,6 +25,12 @@ We trained a 125,829,314-parameter model from random weights and built our own 1
 Every model was evaluated on the same 500 items per task: ARC-Challenge, HellaSwag, PIQA, BoolQ and WinoGrande. The first three use normalized accuracy, the last two accuracy; the macro weights tasks equally. These are a frozen selected suite, not full official leaderboard results. Both owned variants failed all task floors and the 52% macro floor. Both passed **0/24 strict automatic instruction diagnostics**; 12 human-rubric items per variant remain unscored. All six fixed comparisons are retained. No Pareto-frontier or reliable-assistant claim follows from this experiment.
 
 Read the [full results](release/research/EXPERIMENT_RESULTS.md), [frozen protocol](release/research/evaluation_protocol.md), and [per-item outcomes and comparisons](release/results/README.md). Some instruction responses were relevant but failed exact formatting; others contained substantive errors and repetition.
+
+## Where it falls short
+
+All numbers are from the table above. Both variants are behind every baseline on the 2,500-item macro: base 45.72% and
+conversation 46.40%, against 51.76% for SmolLM2-135M, 57.40% for SmolLM2-360M and 68.08% for Sarvam-1. Both failed all
+five task floors and the 52% macro floor, and passed 0/24 strict automatic instruction checks.
 
 ## Run a model
 
@@ -65,3 +75,7 @@ The files under `release/` preserve the sealed 24 September snapshot unchanged, 
 Udgam-written code, documentation, tokenizer and owned weights use **MIT** terms. Upstream code and third-party data retain their notices and terms; see [license scope](release/LICENSE_SCOPE.md), [data attribution](release/research/data_sources.json) and the model attribution folders. MIT does not relicense the source corpora or baseline models. Raw corpora, per-example training traces, baseline weights, optimizer backups, credentials and account records are excluded.
 
 We welcome reproducible bug reports and independent improvements. Remove personal information from examples. Changed weights need new identities and fresh evaluation; this release's benchmark scores do not transfer to them. The original experiment did not meet its target, and that result remains part of the record.
+
+---
+
+**About Udgam Labs.** Udgam Labs is an independent AI research lab. We work from first principles: before we build, we understand why things work, whether we are training a model, fine-tuning one or applying AI to a new problem. Udgam (उद्गम) is Sanskrit for origin. [udgamlabs.com](https://udgamlabs.com)
