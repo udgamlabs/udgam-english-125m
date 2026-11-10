@@ -208,6 +208,14 @@ def main(argv=None):
     with Stop(a.max_seconds) as stop:
         store=scanned.ScannedStore(a.directory)
         try:
+            if store.get('packing_incomplete',False) or (store.directory/'packing.json').exists():
+                b.recover_pack(store)
+                # After journal removal but before public manifest replacement,
+                # the durable incomplete flag still authorizes rebuilding the view.
+                for row in store.db.execute('SELECT manifest FROM shards ORDER BY id'):
+                    for relative,checksum in json.loads(row[0])['hashes'].items():
+                        if b.source.file_hash(store.directory/relative)!=checksum:raise ValueError('Committed shard integrity failure')
+                store.snapshot()
             result=pack(store,max_positions=a.max_positions,stop=stop)
             print(json.dumps(result['receipt'],indent=2));return 0 if result['outcome']=='complete' else 75
         finally:store.close()
