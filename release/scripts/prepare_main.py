@@ -503,7 +503,19 @@ def pending_documents(store):
 def pack(store,crash_after_rename=False):
     """Emit verified finite shards; cursor updates commit with shard identities."""
     import numpy as np
-    store.ready();recover_pack(store);config=store.get("config");width=config["sequence_len"]+1
+    store.ready();recover_pack(store)
+    # recover_pack only re-verifies the single shard named in packing.json's
+    # journal (the shard mid-flight at the last crash/stop). Re-check every
+    # previously committed shard too on every pack() call, so a shard
+    # corrupted between separate pack() invocations (bad copy, disk fault,
+    # partial rsync/scp while moving state.sqlite+shards between machines)
+    # is caught instead of silently packed on top of; mirrors the resume-time
+    # full-ledger recheck in pack_main_bounded.py/pack_main_scanned.py/
+    # pack_main_repaired.py.
+    for row in store.db.execute("SELECT manifest FROM shards ORDER BY id"):
+        for relative,checksum in json.loads(row[0])["hashes"].items():
+            if source.file_hash(store.directory/relative)!=checksum:raise ValueError("Committed shard integrity failure")
+    config=store.get("config");width=config["sequence_len"]+1
     max_rows=config["shard_positions"]//width
     if max_rows<1:raise ValueError("Shard cap must fit one sequence row")
     while True:
